@@ -38,3 +38,11 @@ section#telefone{
     width: 311px; /*largura de 500px*/
     background: url('../imagens/frame-iphone.png') no-repeat; /* fundo vai ter uma imagem e não vai se repetir*/
 }
+
+iframe#tela{
+    position: relative;
+    top: 80px;
+    left: 22px;
+    width: 269px;
+    height: 471px;
+}
