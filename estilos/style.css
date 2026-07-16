@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+/* global*/
+*{
+    margin: 0px; /* margem de 0px*/
+    padding: 0px; /* preenchimento 0px*/
+    font-family: Arial, Helvetica, sans-serif; /*familia da fonte*/
+}
+
+/* configurações do html e corpo*/
+html, body {
+    height: 100vh; /* 100 da altura da viewport */
+    width: 100vw; /* 100 da largura da viewport */
+    background-color: black;
+}
+
+/* corpo */
+body{
+    background: url('../imagens/fundo-madeira.jpg') /* fundo vai ter uma imagem*/
+     top center no-repeat; /* top center se relaciona com background-position e o no-repeat ao background-repeat*/
+     background-size: cover; /* para a imagem caber na tela fazer cortes nela*/
+     background-attachment: fixed; /* deixar a imagem fixa na tela*/
+}
+
+/* Principal (conteiner de fora)*/
+main {
+    height: 100vh; /* 100 da altura da viewport*/
+    position: relative; /* posição relativa*/
+}
+
+/* configurações da sessão do id telefone (conteiner de dentro)*/
+section#telefone{
+    position: absolute; /* posição absoluta*/
+    top: 50%; /* colocando cima 50%*/
+    left: 50%; /* Colocando a esquerda 50%*/
+    transform: translate(-50%, -50%); /* fazendo uma transformaçção movendo mais para direita e subindo o bloco para cima assim ficando centralizado*/
+    height: 627px; /* altura 500px*/
+    width: 311px; /*largura de 500px*/
+    background: url('../imagens/frame-iphone.png') no-repeat; /* fundo vai ter uma imagem e não vai se repetir*/
+}
