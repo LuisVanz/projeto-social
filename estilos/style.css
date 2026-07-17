@@ -39,29 +39,33 @@ section#telefone{
     background: url('../imagens/frame-iphone.png') no-repeat; /* fundo vai ter uma imagem e não vai se repetir*/
 }
 
+/*configurando o quadro em linha(iframe)*/
 iframe#tela{
-    position: relative;
-    top: 80px;
-    left: 22px;
-    width: 269px;
-    height: 471px;
+    position: relative; /* posição relativa*/
+    top: 80px; /* 80px pra cima*/
+    left: 22px; /* 22px pra esquerda*/
+    width: 267px; /* 269px de largura*/
+    height: 471px; /* 471px de altura*/
 }
 
+/* Configurando a seção das redes sociais*/
 section#redes-sociais {
-    text-align: right;
+    text-align: right; /* Alinhando para a direita*/
 }
 
+/* configurando a seção das imagens das redes sociais*/
 section#redes-sociais img {
-    width: 50px;
-    margin: 10px;
-    border-radius: 50%;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.400);
-    box-sizing: border-box;
+    width: 50px; /* largura de 50px*/
+    margin: 10px; /* margem de 10px*/
+    border-radius: 50%; /* deixar o botão redondo*/
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.400); /* Colocando uma sombra nos botões*/
+    box-sizing: border-box; /* fazendo a borda fazer parte da caixa*/
 }
 
+/* configurando a seção das imagens das redes sociais usando hover*/
 section#redes-sociais img:hover {
-    border: 2px solid rgba(255, 255, 255, 0.637);
-    transform: translate(-3px, -3px);
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.623);
-    transition: transform .3s, border 1s;
+    border: 2px solid rgba(255, 255, 255, 0.637); /* configurando a borda*/
+    transform: translate(-3px, -3px); /* ajustando a posição do botão*/
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.623); /* ajustando a sombra da caixa*/
+    transition: transform .3s, border 1s; /* configurando a transição do botão e da borda*/
 }
