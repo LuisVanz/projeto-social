@@ -1,13 +1,13 @@
-@charset "UTF-8";
+@charset "UTF-8"; /* padrão universal de codificação de caracteres para a língua portuguesa */
 
-/* global*/
+/* global */
 *{
-    margin: 0px; /* margem de 0px*/
-    padding: 0px; /* preenchimento 0px*/
-    font-family: Arial, Helvetica, sans-serif; /*familia da fonte*/
+    margin: 0px; /* margem de 0px */
+    padding: 0px; /* preenchimento 0px */
+    font-family: Arial, Helvetica, sans-serif; /*familia da fonte */
 }
 
-/* configurações do html e corpo*/
+/* configurações do html e corpo */
 html, body {
     height: 100vh; /* 100 da altura da viewport */
     width: 100vw; /* 100 da largura da viewport */
@@ -16,56 +16,56 @@ html, body {
 
 /* corpo */
 body{
-    background: url('../imagens/fundo-madeira.jpg') /* fundo vai ter uma imagem*/
-     top center no-repeat; /* top center se relaciona com background-position e o no-repeat ao background-repeat*/
-     background-size: cover; /* para a imagem caber na tela fazer cortes nela*/
-     background-attachment: fixed; /* deixar a imagem fixa na tela*/
+    background: url('../imagens/fundo-madeira.jpg') /* fundo vai ter uma imagem */
+     top center no-repeat; /* top center se relaciona com background-position e o no-repeat ao background-repeat */
+     background-size: cover; /* para a imagem caber na tela fazer cortes nela */
+     background-attachment: fixed; /* deixar a imagem fixa na tela */
 }
 
-/* Principal (conteiner de fora)*/
+/* Principal (conteiner de fora) */
 main {
-    height: 100vh; /* 100 da altura da viewport*/
-    position: relative; /* posição relativa*/
+    height: 100vh; /* 100 da altura da viewport */
+    position: relative; /* posição relativa */
 }
 
-/* configurações da sessão do id telefone (conteiner de dentro)*/
+/* configurações da sessão do id telefone (conteiner de dentro) */
 section#telefone{
-    position: absolute; /* posição absoluta*/
-    top: 50%; /* colocando cima 50%*/
-    left: 50%; /* Colocando a esquerda 50%*/
-    transform: translate(-50%, -50%); /* fazendo uma transformaçção movendo mais para direita e subindo o bloco para cima assim ficando centralizado*/
-    height: 627px; /* altura 500px*/
-    width: 311px; /*largura de 500px*/
-    background: url('../imagens/frame-iphone.png') no-repeat; /* fundo vai ter uma imagem e não vai se repetir*/
+    position: absolute; /* posição absoluta */
+    top: 50%; /* colocando cima 50% */
+    left: 50%; /* Colocando a esquerda 50% */
+    transform: translate(-50%, -50%); /* fazendo uma transformaçção movendo mais para direita e subindo o bloco para cima assim ficando centralizado */
+    height: 627px; /* altura 500px */
+    width: 311px; /* largura de 500px */
+    background: url('../imagens/frame-iphone.png') no-repeat; /* fundo vai ter uma imagem e não vai se repetir */
 }
 
-/*configurando o quadro em linha(iframe)*/
+/*configurando o quadro em linha(iframe) */
 iframe#tela{
-    position: relative; /* posição relativa*/
-    top: 80px; /* 80px pra cima*/
-    left: 22px; /* 22px pra esquerda*/
-    width: 267px; /* 269px de largura*/
-    height: 471px; /* 471px de altura*/
+    position: relative; /* posição relativa */
+    top: 80px; /* 80px pra cima */
+    left: 22px; /* 22px pra esquerda */
+    width: 267px; /* 269px de largura */
+    height: 471px; /* 471px de altura */
 }
 
-/* Configurando a seção das redes sociais*/
+/* Configurando a seção das redes sociais */
 section#redes-sociais {
-    text-align: right; /* Alinhando para a direita*/
+    text-align: right; /* Alinhando para a direita */
 }
 
-/* configurando a seção das imagens das redes sociais*/
+/* configurando a seção das imagens das redes sociais */
 section#redes-sociais img {
-    width: 50px; /* largura de 50px*/
-    margin: 10px; /* margem de 10px*/
-    border-radius: 50%; /* deixar o botão redondo*/
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.400); /* Colocando uma sombra nos botões*/
-    box-sizing: border-box; /* fazendo a borda fazer parte da caixa*/
+    width: 50px; /* largura de 50px */
+    margin: 10px; /* margem de 10px */
+    border-radius: 50%; /* deixar o botão redondo */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.400); /* Colocando uma sombra nos botões */
+    box-sizing: border-box; /* fazendo a borda fazer parte da caixa */
 }
 
-/* configurando a seção das imagens das redes sociais usando hover*/
+/* configurando a seção das imagens das redes sociais usando hover */
 section#redes-sociais img:hover {
-    border: 2px solid rgba(255, 255, 255, 0.637); /* configurando a borda*/
-    transform: translate(-3px, -3px); /* ajustando a posição do botão*/
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.623); /* ajustando a sombra da caixa*/
-    transition: transform .3s, border 1s; /* configurando a transição do botão e da borda*/
+    border: 2px solid rgba(255, 255, 255, 0.637); /* configurando a borda */
+    transform: translate(-3px, -3px); /* ajustando a posição do botão */
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.623); /* ajustando a sombra da caixa */
+    transition: transform .3s, border 1s; /* configurando a transição do botão e da borda */
 }
